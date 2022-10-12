@@ -170,6 +170,7 @@ export const Container = styled.div`
       h1{
          margin:0;
          padding-top: 3rem;
+         padding-bottom: 3rem;
       }
       .exp-content{
          display: flex;
@@ -189,19 +190,28 @@ export const Container = styled.div`
             width: 40%;
             height: 100vh;
             margin-right: 5rem;
-            // margin-top: 3rem;
             justify-content: center;
             align-items: center;
 
             .exp-card{
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
                width: 20rem;
-               height: 5rem;
-               // border: 1px solid;
+               height: 9rem;
+               padding: 15px;
                margin: auto;
                border-radius: 10px;
                box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+
+               h3, h4{
+                  margin: 0;
+               }
             }
             .exp-card:hover{
+               transition: all 1s ease;
+               transform: scale(1.1);
                box-shadow:
                   inset 0 0 60px whitesmoke,
                   inset 20px 0 80px #bfd7b1,
@@ -212,42 +222,16 @@ export const Container = styled.div`
                   -10px 0 80px #106e32,
                   10px 0 80px #3c562a;
             }
-            .slide-in-right {
-               -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                       animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            }
+            
          }
       }
-  
-  
-   @-webkit-keyframes slide-in-right {
-      0% {
-      -webkit-transform: translateX(1000px);
-               transform: translateX(1000px);
-      opacity: 0;
-      }
-      100% {
-      -webkit-transform: translateX(0);
-               transform: translateX(0);
-      opacity: 1;
-      }
    }
-   @keyframes slide-in-right {
-      0% {
-      -webkit-transform: translateX(1000px);
-               transform: translateX(1000px);
-      opacity: 0;
-      }
-      100% {
-      -webkit-transform: translateX(0);
-               transform: translateX(0);
-      opacity: 1;
-      }
- }
+   .container-contato{
+      width: 100%;
+      height: 150vh;
+      background-image: url("../../src/assets/bg-contato.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
  
- }
- 
-      
-   
-
 `;

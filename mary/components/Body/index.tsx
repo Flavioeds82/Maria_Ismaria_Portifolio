@@ -1,20 +1,25 @@
 import { Container } from "./Body";
 import { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export function Body(){
 
-   
+   useEffect(()=>{
+      AOS.init({duration: 1500});
+   }, []);
 
    return(
       <Container>
 
          <section className="body" id="inicio">
             <div className="container-body">
-               <div className="frame"></div>
+               <div className="frame" data-aos="fade-up-left"></div>
                <div className="text">
-                  <h1>Olá, sejam bem vindos!!!</h1>
-                  <h3>Este é o meu Portifólio, onde conto um pouco da minha trajetória profissional.</h3>
+                  <h1 data-aos="fade-up-left">Olá, sejam bem-vindos!!!</h1>
+                  <h3 data-aos="fade-up-left">Este é o meu Portifólio, onde conto um pouco da minha trajetória profissional.</h3>
                </div>
             </div>
          </section>
@@ -23,18 +28,18 @@ export function Body(){
             <div className="container-about">
                <div className="about-left"></div>
                <div className="about-right">
-                  <h1>Sobre mim</h1>
-                  <div className="frame-about"></div>
-                  <h3>Formada em Letras: Português/Literatura. Comecei minha jornada como educadora ao completar o curso de Formação de Professores em 2016. Trabalhei com todos os segmentos inclusive na educação para jovens e adultos(EJA). Atualmente trabalho com fundametal I e fundamental II, mas estou sempre em busca de novos desafios e oportunidades.</h3>
+                  <h1 data-aos="zoom-in">Sobre mim</h1>
+                  <div className="frame-about" data-aos="fade-up-left"></div>
+                  <h3 data-aos="fade-up-left">Formada em Letras: Português/Literatura. Comecei minha jornada como educadora ao completar o curso de Formação de Professores em 2016. Trabalhei com todos os segmentos inclusive na educação para jovens e adultos(EJA). Atualmente trabalho com fundametal I e fundamental II, mas estou sempre em busca de novos desafios e oportunidades.</h3>
                </div>
             </div>
          </section>
 
          <section className="qualificacoes" id="qualificacoes">
             <div className="container-quali">
-               <div className="quali-title"><h1>Qualificações</h1></div>
+               <div className="quali-title" data-aos="zoom-in"><h1>Qualificações</h1></div>
                <div className="quali-grid">
-                  <div className="grid-item">
+                  <div className="grid-item" data-aos="fade-up-right">
                      <h2>Licenciatura em Letras: Português/Literatura</h2>
                      <div className="grid-content">
                         <div className="grid-frame1"></div>
@@ -43,7 +48,7 @@ export function Body(){
                         </div>
                      </div>
                   </div>
-                  <div className="grid-item">
+                  <div className="grid-item" data-aos="fade-up-left">
                      <h2>Formação de Professores</h2>
                      <div className="grid-content">
                         <div className="grid-frame2"></div>
@@ -60,19 +65,30 @@ export function Body(){
 
          <section className="experiencia" id="experiencias">
             <div className="container-exp">
-               <div className="exp-title"><h1>Experiências</h1></div>
+               <div className="exp-title" data-aos="zoom-in"><h1>Experiências</h1></div>
                <div className="exp-content">
-                  <div className="content-left"></div>
+                  <div className="content-left"  data-aos="fade-up-right"></div>
                   <div className="content-right">
-                     <div className="exp-card slide-in-right">1</div>
-                     <div className="exp-card slide-in-right">2</div>
-                     <div className="exp-card slide-in-right">3</div>
+                     <div className="exp-card" data-aos="fade-up-left">
+                        <h3>Professora do ensino fundamental I </h3><h4> Centro Educacional Silvia Tupinambá(CEST) <br/> 2016 - 2020 </h4>
+                     </div>
+                     <div className="exp-card" data-aos="fade-up-left">
+                        <h3>Professora do ensino fundametal I</h3> <h4>Instituito Educar para Crescer <br/> 2021 - 2022 (Atual)</h4>
+                     </div>
+                     <div className="exp-card" data-aos="fade-up-left">
+                        <h3>Professora de Português/Redação/Literatura- Ensino Fundamental II</h3> <h4>Centro Integrado de Ensino Cinco de Julho <br/> 2021-2022 (Atual)</h4>  
+                     </div>
                   </div>
                </div>
             </div>
          </section>
 
-         
+         <section className="contato">
+            <div className="container-contato">
+               ***
+            </div>
+         </section>
+     
       </Container>
    )
    
