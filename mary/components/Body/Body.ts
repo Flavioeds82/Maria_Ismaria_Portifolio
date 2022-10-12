@@ -194,15 +194,60 @@ export const Container = styled.div`
             align-items: center;
 
             .exp-card{
-               width: 30rem;
+               width: 20rem;
                height: 5rem;
-               border: 1px solid;
+               // border: 1px solid;
                margin: auto;
+               border-radius: 10px;
+               box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+            }
+            .exp-card:hover{
+               box-shadow:
+                  inset 0 0 60px whitesmoke,
+                  inset 20px 0 80px #bfd7b1,
+                  inset -20px 0 80px #106e32,
+                  inset 20px 0 300px #3c562a,
+                  inset -20px 0 300px #bfd7b1,
+                  0 0 50px #fff,
+                  -10px 0 80px #106e32,
+                  10px 0 80px #3c562a;
+            }
+            .slide-in-right {
+               -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                       animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
             }
          }
       }
-      
-      
+  
+  
+   @-webkit-keyframes slide-in-right {
+      0% {
+      -webkit-transform: translateX(1000px);
+               transform: translateX(1000px);
+      opacity: 0;
+      }
+      100% {
+      -webkit-transform: translateX(0);
+               transform: translateX(0);
+      opacity: 1;
+      }
    }
+   @keyframes slide-in-right {
+      0% {
+      -webkit-transform: translateX(1000px);
+               transform: translateX(1000px);
+      opacity: 0;
+      }
+      100% {
+      -webkit-transform: translateX(0);
+               transform: translateX(0);
+      opacity: 1;
+      }
+ }
+ 
+ }
+ 
+      
+   
 
 `;

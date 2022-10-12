@@ -1,6 +1,11 @@
 import { Container } from "./Body";
+import { useState, useEffect } from "react";
+import ReactDOM from "react-dom/client";
 
 export function Body(){
+
+   
+
    return(
       <Container>
 
@@ -59,9 +64,9 @@ export function Body(){
                <div className="exp-content">
                   <div className="content-left"></div>
                   <div className="content-right">
-                     <div className="exp-card">1</div>
-                     <div className="exp-card">2</div>
-                     <div className="exp-card">3</div>
+                     <div className="exp-card slide-in-right">1</div>
+                     <div className="exp-card slide-in-right">2</div>
+                     <div className="exp-card slide-in-right">3</div>
                   </div>
                </div>
             </div>
