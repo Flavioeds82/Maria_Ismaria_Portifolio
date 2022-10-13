@@ -30,7 +30,7 @@ export function Body(){
                <div className="about-right">
                   <h1 data-aos="zoom-in">Sobre mim</h1>
                   <div className="frame-about" data-aos="fade-up-left"></div>
-                  <h3 data-aos="fade-up-left">Formada em Letras: Português/Literatura. Comecei minha jornada como educadora ao completar o curso de Formação de Professores em 2016. Trabalhei com todos os segmentos inclusive na educação para jovens e adultos(EJA). Atualmente trabalho com fundametal I e fundamental II, mas estou sempre em busca de novos desafios e oportunidades.</h3>
+                  <h3 data-aos="fade-up-left">Formada em Letras: Português/Literatura. Comecei minha jornada como educadora ao completar o curso de Formação de Professores em 2015. Trabalhei com todos os segmentos inclusive na educação para jovens e adultos(EJA). Atualmente trabalho com fundametal I e fundamental II, mas estou sempre em busca de novos desafios e oportunidades.</h3>
                </div>
             </div>
          </section>
@@ -53,7 +53,7 @@ export function Body(){
                      <div className="grid-content">
                         <div className="grid-frame2"></div>
                         <div className="grid-text" id="text2">
-                           <p>Curso de Formação de Professores(2016) com objetivo a capacitação através de conhecimentos teóricos e práticos na área da educação para o nível fundamental I.</p>
+                           <p>Curso de Formação de Professores(2015) com objetivo a capacitação através de conhecimentos teóricos e práticos na área da educação para o nível fundamental I.</p>
                         </div>
                      </div>
                      
@@ -85,7 +85,28 @@ export function Body(){
 
          <section className="contato">
             <div className="container-contato">
-               ***
+               <div className="contato-title" data-aos="zoom-in"><h1>Contato</h1></div>
+               <div className="contato-content" >
+                  <div className="contato-bg" data-aos="zoom-in"></div>
+                  <div className="contato-icones">
+                     <div className="contato-icone">
+                       <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-plain.svg" /></a> 
+                     </div>
+                     <div className="contato-icone">
+                        <a href=""><img src="../../src/assets/instagram.png" /></a>
+                     </div>
+                     <div className="contato-icone">
+                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /></a>
+                     </div>
+                     <div className="contato-icone">
+                        <a href="https://api.whatsapp.com/send?phone=5521998897270&text=Ol%C3%A1%2C%20estou%20vindo%20do%20seu%20portif%C3%B3lio."><img src="../../src/assets/whatsapp.png" /></a>
+                     </div>
+                     <div className="contato-icone">
+                        <a href="mailto: ismaria2010@outlook.com"><img src="../../src/assets/email.png" /></a>
+                     </div>
+                  </div>
+                  
+               </div>
             </div>
          </section>
      

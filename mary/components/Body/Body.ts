@@ -18,7 +18,7 @@ export const Container = styled.div`
       .frame{
          width: 15rem;
          height: 15rem;
-         background-image: url("../../src/assets/foto-02.jpg");
+         background-image: url("../../src/assets/foto-03.jpeg");
          background-size: cover;
          background-position: center;
          border: 5px solid #ea59be;
@@ -228,10 +228,48 @@ export const Container = styled.div`
    }
    .container-contato{
       width: 100%;
-      height: 150vh;
-      background-image: url("../../src/assets/bg-contato.svg");
-      background-size: cover;
-      background-repeat: no-repeat;
+      height: 100vh;
+      background-color: #FeFcF9;
+
+      h1{
+         margin: 0;
+         padding-top: 3rem;
+      }
+      
+      .contato-content{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         .contato-bg{
+            width: 60%;
+            height: 100vh;
+            background-image: url("../../src/assets/bg-contato-02.svg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-bottom: 0;
+         }
+         .contato-icones{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+
+            .contato-icone{
+               width: 50px;
+               height: 50px;
+               margin-bottom: 2rem;
+               margin-left: 2rem;
+
+               img{
+                  width: 50px;
+                  height: 50px;
+               }
+            }
+         }
+      }
    }
  
 `;
