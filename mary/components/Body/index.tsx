@@ -89,26 +89,28 @@ export function Body(){
                <div className="contato-content" >
                   <div className="contato-bg" data-aos="zoom-in"></div>
                   <div className="contato-icones">
-                     <div className="contato-icone">
-                       <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-plain.svg" /></a> 
+                     <div className="contato-icone" >
+                       <a href="https://www.facebook.com/ismariasarmento.dasilva" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-plain.svg" /></a> 
+                     </div>
+                     <div className="contato-icone" >
+                        <a href="https://www.instagram.com/ismariasarmento/" target="_blank"><img src="../../src/assets/instagram.png" /></a>
+                     </div>
+                     <div className="contato-icone" >
+                        <a href="" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /></a>
+                     </div>
+                     <div className="contato-icone" >
+                        <a href="https://api.whatsapp.com/send?phone=5521998897270&text=Ol%C3%A1%2C%20estou%20vindo%20do%20seu%20portif%C3%B3lio." target="_blank"><img src="../../src/assets/whatsapp.png" /></a>
                      </div>
                      <div className="contato-icone">
-                        <a href=""><img src="../../src/assets/instagram.png" /></a>
-                     </div>
-                     <div className="contato-icone">
-                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /></a>
-                     </div>
-                     <div className="contato-icone">
-                        <a href="https://api.whatsapp.com/send?phone=5521998897270&text=Ol%C3%A1%2C%20estou%20vindo%20do%20seu%20portif%C3%B3lio."><img src="../../src/assets/whatsapp.png" /></a>
-                     </div>
-                     <div className="contato-icone">
-                        <a href="mailto: ismaria2010@outlook.com"><img src="../../src/assets/email.png" /></a>
+                        <a href="mailto: ismaria2010@outlook.com" target="_blank"><img src="../../src/assets/email.png" /></a>
                      </div>
                   </div>
                   
                </div>
             </div>
          </section>
+
+        
      
       </Container>
    )

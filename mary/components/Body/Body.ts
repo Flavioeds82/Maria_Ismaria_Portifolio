@@ -234,6 +234,7 @@ export const Container = styled.div`
       h1{
          margin: 0;
          padding-top: 3rem;
+         padding-bottom: 2rem;
       }
       
       .contato-content{
@@ -244,7 +245,7 @@ export const Container = styled.div`
 
          .contato-bg{
             width: 60%;
-            height: 100vh;
+            height: 70vh;
             background-image: url("../../src/assets/bg-contato-02.svg");
             background-size: cover;
             background-repeat: no-repeat;
@@ -256,20 +257,43 @@ export const Container = styled.div`
             justify-content: center;
             align-items: center;
             width: 60%;
+            margin-top: 1.5rem;
 
             .contato-icone{
                width: 50px;
                height: 50px;
                margin-bottom: 2rem;
                margin-left: 2rem;
+               -webkit-transition: all 0.7s ease;
+               transition: all 1s ease;
+               animation: pulse 5s linear infinite;
 
                img{
                   width: 50px;
                   height: 50px;
                }
             }
+            .contato-icone:hover{
+               opacity: 0.6;
+            }
          }
       }
    }
- 
+   
+   @keyframes pulse{
+      
+      0% {
+         transform: scale(1);
+      }
+      
+      50% {
+         transform: scale(1.2);
+      }
+      
+      0% {
+         transform: scale(1);
+      }
+
+   }
+
 `;
