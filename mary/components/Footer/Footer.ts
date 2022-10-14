@@ -60,5 +60,28 @@ export const Container = styled.div`
 
       
    }
-
+   @media(max-width: 600px){
+      .container-footer{
+         width: 100%;
+         height: auto;
+         padding: 1rem 0;
+         flex-direction: column;
+         margin-top: 2rem;
+         .footer-left{
+            font-size: 0.8rem;
+         }
+         .footer-copy{
+            width: 100%;
+            h4{
+               font-size: 0.8rem;
+            }
+            p{
+               font-size: 0.5rem;
+            }
+         }
+         .footer-right{
+            font-size: 0.8rem;
+         }
+      }
+   }
 `;

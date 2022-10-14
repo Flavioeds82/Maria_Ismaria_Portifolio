@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
+
 export const Container = styled.div`
+   @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
    .container-header{
       width: 100%;
@@ -11,6 +13,10 @@ export const Container = styled.div`
       background-color: #EA59BE;
       color: #fff;
       border-bottom: 3px solid #fff;
+
+      .header-logo{
+      font-family: 'Pacifico', cursive;
+      }
 
       .header-logo:hover{
          color: #444;
@@ -57,9 +63,26 @@ export const Container = styled.div`
          }
       }
    }
-   @media(max-width:600px){
+   @media(max-width:1050px){
       .container-header{
          width: 100%;
+         height: auto;
+         .header-logo{
+            font-size: 0.8rem;
+         }
+         .header-menu a{
+            font-size: 0.3rem;
+
+            li{
+               margin-left: 1rem;
+            }
+         }
+
+      }
+   }
+   @media(max-width:600px){
+      .container-header{
+         width: 100vw;
          flex-direction: column;
          height: auto;
          margin: auto;
@@ -72,14 +95,14 @@ export const Container = styled.div`
 
             ul{
               flex-direction: column;
-
-              li{
-                 margin: auto;
-                 padding:5px;
-              }
             }
+            li{
+                margin-bottom: 5px;
+                font-size: 1.5rem;
+              }
          }
       }
+     
    }
 
 
