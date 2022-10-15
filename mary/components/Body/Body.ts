@@ -437,7 +437,7 @@ export const Container = styled.div`
                width: 100%;
                height: 70vh;
                margin-bottom:0;
-               background-image: url("../../src/assets/bg-03.svg");
+               background-image: url(${bg03});
                background-size: contain;
                background-repeat: no-repeat;
                background-position: center;
