@@ -68,19 +68,19 @@ export const Container = styled.div`
          flex-direction: column;
          margin-top: 2rem;
          .footer-left{
-            font-size: 0.8rem;
+            font-size: 1rem;
          }
          .footer-copy{
             width: 100%;
             h4{
-               font-size: 0.8rem;
+               font-size: 1rem;
             }
             p{
-               font-size: 0.5rem;
+               font-size: 0.8rem;
             }
          }
          .footer-right{
-            font-size: 0.8rem;
+            font-size: 1rem;
          }
       }
    }

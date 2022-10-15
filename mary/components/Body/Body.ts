@@ -309,9 +309,15 @@ export const Container = styled.div`
    }
 
    @media (max-width:1300px){
-      .container-body .frame{
-         margin-top: 0;
-      }
+      .container-body{
+         .frame{
+            margin-top: 0;
+         }
+         .text{
+            margin-right: 2rem;
+         }
+      } 
+      
    }
    @media (max-width:800px){
       .container-about{
@@ -346,7 +352,7 @@ export const Container = styled.div`
             }
          }
          .text{
-            width: 100%;
+            width: 80%;
 
             h1{
                font-size: 1.5rem;
@@ -357,6 +363,7 @@ export const Container = styled.div`
          }
       }
       .container-about{
+         height: auto;
          .about-left{
             display: none;
          }
@@ -410,17 +417,17 @@ export const Container = styled.div`
       }
       .container-exp{
          h1{
-         font-size: 2rem;
-         margin: 0;
-         padding: 1rem;
+            font-size: 2rem;
+            margin-bottom: -3rem;
+            padding: 1rem;
          }
          .exp-content{
-         flex-direction: column;
+            flex-direction: column;
          
             .content-left{
                width: 100%;
                height: 70vh;
-               margin-bottom:1rem;
+               margin-bottom:0;
                background-image: url("../../src/assets/bg-03.svg");
                background-size: contain;
                background-repeat: no-repeat;
@@ -440,12 +447,19 @@ export const Container = styled.div`
 
       }
       .container-contato{
+         height: auto;
          h1{
             font-size: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin-bottom: -1rem; 
          }
          .contato-content{
             .contato-bg{
                width: 100%;
+               margin-left: 1rem;
+               background-size: cover;
+               background-position: center;
             }
             .contato-icones{
                width: 100%;

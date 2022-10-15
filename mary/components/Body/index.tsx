@@ -17,11 +17,11 @@ export function Body(){
          <section className="body" id="inicio">
             <div className="container-body">
                <div className="body-frame">
-                  <div className="frame" data-aos="fade-up-left"></div>
+                  <div className="frame" data-aos="zoom-in"></div>
                </div>
                <div className="text">
-                  <h1 data-aos="fade-up-left">Olá, sejam bem-vindos!!!</h1>
-                  <h3 data-aos="fade-up-left">Este é o meu Portifólio, onde conto um pouco da minha trajetória profissional.</h3>
+                  <h1 data-aos="zoom-in">Olá, sejam bem-vindos!!!</h1>
+                  <h3 data-aos="zoom-in">Este é o meu Portifólio, onde conto um pouco da minha trajetória profissional.</h3>
                </div>
             </div>
          </section>
@@ -90,7 +90,7 @@ export function Body(){
             </div>
          </section>
 
-         <section className="contato">
+         <section className="contato" id="contato">
             <div className="container-contato">
                <div className="contato-title" data-aos="zoom-in"><h1>Contato</h1></div>
                <div className="contato-content" >
