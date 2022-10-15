@@ -3,6 +3,10 @@ import { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import instagram from "../../public/assets/images/instagram.png";
+import telefone from "../../public/assets/images/telefone.png";
+import whatsapp from "../../public/assets/images/whatsapp.png";
+import email from "../../public/assets/images/email.png";
 
 
 export function Body(){
@@ -100,16 +104,16 @@ export function Body(){
                        <a href="https://www.facebook.com/ismariasarmento.dasilva" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-plain.svg" /></a> 
                      </div>
                      <div className="contato-icone" >
-                        <a href="https://www.instagram.com/ismariasarmento/" target="_blank"><img src="../../src/assets/instagram.png" /></a>
+                        <a href="https://www.instagram.com/ismariasarmento/" target="_blank"><img src={instagram}/></a>
                      </div>
                      <div className="contato-icone" >
-                        <a href="tel:+5521998085411" target="_blank"><img src="../../src/assets/telefone.png" /></a>
+                        <a href="tel:+5521998085411" target="_blank"><img src={telefone}/></a>
                      </div>
                      <div className="contato-icone" >
-                        <a href="https://api.whatsapp.com/send?phone=5521998897270&text=Ol%C3%A1%2C%20estou%20vindo%20do%20seu%20portif%C3%B3lio." target="_blank"><img src="../../src/assets/whatsapp.png" /></a>
+                        <a href="https://api.whatsapp.com/send?phone=5521998897270&text=Ol%C3%A1%2C%20estou%20vindo%20do%20seu%20portif%C3%B3lio." target="_blank"><img src={whatsapp} /></a>
                      </div>
                      <div className="contato-icone">
-                        <a href="mailto: ismaria2010@outlook.com" target="_blank"><img src="../../src/assets/email.png" /></a>
+                        <a href="mailto: ismaria2010@outlook.com" target="_blank"><img src={email} /></a>
                      </div>
                   </div>
                   

@@ -1,4 +1,14 @@
 import styled from 'styled-components';
+import bg01 from '../../public/assets/images/bg-01.svg';
+import foto_03 from '../../public/assets/images/foto-03.jpeg';
+import bg02 from '../../public/assets/images/bg-02.svg';
+import foto_01 from '../../public/assets/images/foto-01.jpg';
+import Logo_letras from '../../public/assets/images/logo-letras.jpg';
+import Logo_formacao from '../../public/assets/images/logo-formacao.png';
+import bg03 from '../../public/assets/images/bg-03.svg';
+import bg_contato from "../../public/assets/images/bg-contato-02.svg";
+
+
 
 export const Container = styled.div`
    
@@ -8,7 +18,7 @@ export const Container = styled.div`
       align-items: flex-end;
       width: 100%;
       height: 100vh;
-      background-image: url("../../src/assets/bg-01.svg");
+      background-image: url(${bg01});
       background-size: contain;
       background-repeat: no-repeat;
       overflow: hidden;
@@ -23,7 +33,7 @@ export const Container = styled.div`
       .frame{
          width: 15rem;
          height: 15rem;
-         background-image: url("../../src/assets/foto-03.jpeg");
+         background-image: url(${foto_03});
          background-size: cover;
          background-position: center;
          border: 5px solid #ea59be;
@@ -55,7 +65,7 @@ export const Container = styled.div`
             flex:1;
             width: 100%;
             height: 80%;
-            background-image: url("../../src/assets/bg-02.svg");
+            background-image: url(${bg02});
             background-size: cover;
             background-repeat: no-repeat;
          }
@@ -77,7 +87,7 @@ export const Container = styled.div`
             border: 3px solid #46B08D;
             border-radius: 50%;
             /* margin-top: 3rem; */
-            background-image: url("../../src/assets/foto-01.jpg");
+            background-image: url(${foto_01});
             background-size: cover;
          }
          h3{
@@ -110,7 +120,6 @@ export const Container = styled.div`
          .grid-item{
             width: 70vw;
             height: auto;
-            /* border: 1px solid #ea59be; */
             border-radius: 2rem;
             margin: auto;
             box-shadow: 0 20px 50px rgba(0,0,0,0.4);
@@ -142,7 +151,7 @@ export const Container = styled.div`
             .grid-frame1{
                width: 100%;
                height: 20rem;
-               background-image: url("../../src/assets/logo-letras.jpg");
+               background-image: url(${Logo_letras});
                background-size: cover;
                background-position: center;
                background-repeat: no-repeat;
@@ -152,7 +161,7 @@ export const Container = styled.div`
             .grid-frame2{
                width: 100%;
                height: 20rem;
-               background-image: url("../../src/assets/logo-formacao.png");
+               background-image: url(${Logo_formacao});
                background-size: contain;
                background-position: center;
                background-repeat: no-repeat;
@@ -190,7 +199,7 @@ export const Container = styled.div`
             width: 60%;
             height: 100vh;
             margin:0;
-            background-image: url("../../src/assets/bg-03.svg");
+            background-image: url(${bg03});
             background-size: contain;
             background-repeat: no-repeat;
          }
@@ -258,7 +267,7 @@ export const Container = styled.div`
          .contato-bg{
             width: 60%;
             height: 70vh;
-            background-image: url("../../src/assets/bg-contato-02.svg");
+            background-image: url(${bg_contato});
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
