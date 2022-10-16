@@ -39,7 +39,7 @@ export function Body(){
                      <div className="frame-about" data-aos="fade-up-left"></div>
                   </div>
                   <div className="container-about-text" data-aos="zoom-in">
-                     <h3>Formada em Letras: Português/Literatura. Comecei minha jornada como educadora ao completar o curso de Formação de Professores em 2015. Trabalhei com todos os segmentos inclusive na educação para jovens e adultos(EJA). Atualmente trabalho com fundametal I e fundamental II, mas estou sempre em busca de novos desafios e oportunidades.</h3>
+                     <h3>Formada em Letras: Português/Literatura. Comecei minha jornada como educadora ao completar o curso de Formação de Professores em 2015. Trabalhei com todos os segmentos inclusive na educação para jovens e adultos(EJA). Atualmente trabalho com Ensino Fundametal I e II, mas estou sempre em busca de novos desafios e oportunidades.</h3>
                   </div>
                   
                </div>
@@ -55,7 +55,7 @@ export function Body(){
                      <div className="grid-content">
                         <div className="grid-frame1"></div>
                         <div className="grid-text">
-                           <p>Curso superior de Licenciatura em Letras pela Faculdade Estácio de Sá em 2021. <br/>O licenciado em Letras Português possui competência e habilitação para o exercício do magistério em Língua Portuguesa, Literatura, Redação e Produção de Texto nos Ensino fundamental, Médio, e Superior.</p>
+                           <p>Curso superior de Licenciatura em Letras pela Faculdade Estácio de Sá em 2021. <br/>O licenciado em Letras Português possui competência e habilitação para o exercício do magistério em Língua Portuguesa, Literatura, Redação e Produção de Texto nos Ensino Fundamental, Médio, e Superior.</p>
                         </div>
                      </div>
                   </div>
@@ -64,7 +64,7 @@ export function Body(){
                      <div className="grid-content">
                         <div className="grid-frame2"></div>
                         <div className="grid-text" id="text2">
-                           <p>Curso de Formação de Professores pelo Centro Educacional Movimento e Arte(CEMA) em 2015 com objetivo a capacitação através de conhecimentos teóricos e práticos na área da educação para o nível fundamental I.</p>
+                           <p>Curso de Formação de Professores pelo Centro Educacional Movimento e Arte(CEMA) em 2015 com objetivo de capacitação através de conhecimentos teóricos e práticos na área da Educação para o nível Fundamental I.</p>
                         </div>
                      </div>
                      
@@ -84,7 +84,7 @@ export function Body(){
                         <h3>Professora do ensino fundamental I </h3><h4> Centro Educacional Silvia Tupinambá(CEST) <br/> 2016 - 2020 </h4>
                      </div>
                      <div className="exp-card" data-aos="fade-up-left">
-                        <h3>Professora do ensino fundametal I</h3> <h4>Instituito Educar para Crescer <br/> 2021 - 2022 (Atual)</h4>
+                        <h3>Professora do Ensino Fundametal I</h3> <h4>Instituito Educar para Crescer <br/> 2021 - 2022 (Atual)</h4>
                      </div>
                      <div className="exp-card" data-aos="fade-up-left">
                         <h3>Professora de Português/Redação/Literatura do Ensino Fundamental II</h3> <h4>Centro Integrado de Ensino Cinco de Julho <br/> 2021-2022 (Atual)</h4>  
