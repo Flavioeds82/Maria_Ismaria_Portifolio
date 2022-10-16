@@ -6,10 +6,10 @@
 ## Technology 
 
 ### Aqui estão as tecnologias utilizadas neste projecto: 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width=50px />
-<img src="./public/vite.svg" width=50px/>
-<img src="./public/assets/images/README/styled-components.svg" width=50px/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width=50px/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width=150px />
+<img src="./public/vite.svg" width=150px/>
+<img src="./public/assets/images/README/styled-components.svg" width=150px/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width=150px/>
 
 * React 
 * Vite
@@ -45,7 +45,7 @@
 ### 4 - Secão Experiências:
 <img src="./public/assets/images/README/img4.png" width=500px/>
 
-### 2 - Secão Contato:
+### 5 - Secão Contato:
 <img src="./public/assets/images/README/img5.png" width=500px/>
 
 #
