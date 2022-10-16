@@ -31,65 +31,32 @@
   
 * npm run dev
   
-## How to use
+# Imagens do Projeto:
 
-### 1 - When you access, you will see the Home page <3
+### 1 - Seção Início:
+<img src="./public/assets/images/README/img1.png" width=500px/>
 
-![Homepage image](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/home.png)
+### 2 - Secão Sobre:
+<img src="./public/assets/images/README/img2.png" width=500px/>
 
-### 2 - You can also see a lot of information on the Blog posts session.
+### 3 - Secão Qualificações:
+<img src="./public/assets/images/README/img3.png" width=500px/>
 
-![Posts](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/posts.png)
+### 4 - Secão Experiências:
+<img src="./public/assets/images/README/img4.png" width=500px/>
 
-### 3 - Or access some of the posts :D
+### 2 - Secão Contato:
+<img src="./public/assets/images/README/img5.png" width=500px/>
 
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_1.png)
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_2.png)
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_3.png)
+#
 
-### 4 - Or you can see my personal Portfolio.
+## Versioning
 
-![Portfolio](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/portfolio_1.png)
-![Portfolio](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/portfolio_2.png)
-
-
-## Features
-
-The main features of the application are:
- - Publish Posts.
- - Learn a lot of information <3
-
-
-## Links
-  - Deploy on Heroku: https://lucas-dev.com/
-  - Repository: https://github.com/Lucasdfg07/Blog_Lucas_Fernandes
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      Lucassiqueiraferandes07@gmail.com directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
-
-  ## Versioning
-
-  1.0.0.0
+  2022.1
 
 
   ## Authors
 
-  * **Lucas Siqueira Fernandes** 
+  * **Flávio Eduardo** 
 
-  Please follow github and join us!
-  Thanks to visiting me and good coding!
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Blog_Lucas_Fernandes/README.md at master · Lucasdfg07/Blog_Lucas_Fernandes
+ ### Obrigado pela visita, me siga em minhas redes sociais!!!
